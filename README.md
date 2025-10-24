@@ -9,17 +9,14 @@
 
 ### **Overview**
 
-A 2D top-down game built using the MiniLibX graphics library
-
-![demo](https://github.com/Mecha-Coder/42-so-long/blob/main/demo/demo.gif)
+A 2D top-down game built using the MiniLibX graphical library
 
 ---
 
 ### **Learnings**
-- Using Linux graphical libraries
+- How to use Minilibx graphic library
 - Map validation techniques (e.g., Flood Fill)
-- Handling keyboard input for player movement
-- Implementing sprite-based animation
+- How to turn spritesheet images into animation
 
 ---
 
@@ -35,6 +32,12 @@ The game includes:
 - Enemies — colliding with one ends the game
 
 Before rendering, the program reads and validates the game map (a .ber text file). During validation, it ensures the map follows specific rules such as having valid walls, paths, and objects. After validation, the program uses MiniLibX to load textures and render the game environment.
+
+---
+
+### **Demo**
+
+![demo](https://github.com/Mecha-Coder/42-so-long/blob/main/demo/demo.gif)
 
 ---
 
